@@ -74,7 +74,7 @@ print("#method 3")
 
 def one_liner():
     for i in range(len(people)):
-        print(type(people[i] + (True,)))
+        print(people[i] + (True,))
 
 
 one_liner()
