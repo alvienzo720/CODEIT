@@ -18,17 +18,17 @@ use any method you can find
 
 # Question 2
 
-m = "Alvin".encode("utf-8")  # here i encode the str Alvin in variable n
+m = "Alvin".encode("utf-8")  # here i encode the string Alvin in variable n
 
 print(m)
 
 # here i decode the string
 
-print(m.decode("utf-8", "backslashreplace"))
+print(m.decode("utf-8"))
 
 # Question 3
 
-print("Hello sorry i cant be near you i have a cold", "\U0001F927","\U0001F927")
+print("Hello sorry i cant be near you i have a cold", "\U0001F927", "\U0001F927")
 
 
 # Question 4
