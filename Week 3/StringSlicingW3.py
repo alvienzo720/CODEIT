@@ -27,20 +27,27 @@ replace(x,y,z)
 '''
 
 # challenge
-question = "How's your night so far?"
-
-question = question[:11] + "day" + question[16:]
-
-print(question)
 
 
-def replace_func(s, t, n):
-    # string -s, target -t, new -n
+def rep():
+    question = "How's your night so far?"
 
-    return
+    question = question[:11] + "day" + question[16:]
+
+    print(question)
 
 
-replace_func()
+rep()
+
+#
+# def replace_func(s, t, n):
+#     # string -s, target -t, new -n
+#
+#     return
+#
+#
+# replace_func()
+
 
 
 
