@@ -26,6 +26,7 @@ def replace(s,t,n):
 replace(x,y,z)
 '''
 
+
 # challenge
 
 
@@ -39,6 +40,20 @@ def rep():
 
 rep()
 
+greeting = "How was your day today?"
+
+a = greeting[:13]
+b = greeting[16:-1]
+c = "night"
+
+print(a)
+print(b)
+
+f = f"{a}{c}"
+
+print(f)
+
+
 #
 # def replace_func(s, t, n):
 #     # string -s, target -t, new -n
@@ -49,5 +64,16 @@ rep()
 # replace_func()
 
 
+def is_palandrome(x, pos_index, neg_index):
+    if x[pos_index] == x[neg_index]:
+        print("")
+    else:
+        return False
+
+    pos_index += 1
+    neg_index -= 1
+
+    is_palandrome(x, pos_index, neg_index)
 
 
+print(is_palandrome("racecar", 0, -1))

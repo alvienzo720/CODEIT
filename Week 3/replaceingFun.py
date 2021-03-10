@@ -19,7 +19,7 @@ def replace_func(s, t, n):
     s = s.split()
     print(s)
     print(type(s))
-    for i in s:  # here we loop through our now list s
+    for i in s:  # here we loop through our now list (s)
         if i == t:
             s.pop()
             s.append(n)
@@ -31,4 +31,5 @@ In this method i managed to replace the last word at the last
 index since i was using pop to remove the last word in the list
 and i used the joi method to put back the string
 '''
+
 replace_func("Hello world", "world", "guys")
