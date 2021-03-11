@@ -24,11 +24,18 @@ mt_gessi = moutains[4][1]
 
 mt_gessi_in_meters = mt_gessi / 3.381
 
-#print(mt_gessi_in_meters)
+# print(mt_gessi_in_meters)
 
 
 def to_meters():
     for i in moutains:
-        print(i[1] / 3.281)
+        print(f"{i[0]} {i[1] / 3.281}")
+
+
 
 to_meters()
+
+
+name_list = [['Ivan', 15], ['Ahabyona', 70]]
+
+print(len(name_list))  # what will this print out?
