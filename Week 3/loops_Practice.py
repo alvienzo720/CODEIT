@@ -22,14 +22,32 @@ def string_encode(s):
     a = ""
     for iterator in range(len(s)):
         #sprint(s[iterator])
-        if s[-iterator-1] == "a":
-            print("z")
-        print(s[-iterator-1])
+        if s[iterator] == "a":
+            print("A is active")
 
+            a = s[iterator::-1]
 
+            print(a)
 
 
 string_encode("Hello alvin")
 
 
+def str_enc(s):
+    e = ""
+    for iterat in range(len(s)):
+        if s[-iterat-1] == "a":
+            e += "z"
+            print('z')
 
+        e += s[-iterat-1]
+        print(e)
+        print(s[-iterat-1])
+    return e
+
+
+str_enc("It's a raniny day")
+
+# q = s[::-1].replace('a', 'z')
+
+# print(q)
