@@ -40,3 +40,4 @@ for city in cities:
     city.append("kelvins")
     print(city)
 
+# K = C + 273.15
