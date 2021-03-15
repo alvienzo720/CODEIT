@@ -28,4 +28,12 @@ remove_hello = first_item + a_tup[2:]
 print(remove_hello)
 
 
+tup_c = 1, 2, 3, 4, 5
 
+1# remove three
+
+print(tup_c[:2] + tup_c[3:])
+
+#print the tuple backwards
+
+print(tup_c[::-1])
