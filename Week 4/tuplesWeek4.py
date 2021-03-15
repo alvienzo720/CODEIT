@@ -28,7 +28,7 @@ remove_hello = first_item + a_tup[2:]
 print(remove_hello)
 
 
-tup_c = 1, 2, 3, 4, 5
+tup_c = 1, 2, 3, 4, 5, 5
 
 1# remove three
 
@@ -37,3 +37,12 @@ print(tup_c[:2] + tup_c[3:])
 #print the tuple backwards
 
 print(tup_c[::-1])
+
+# count how man items are in a tuple
+print(len(tup_c))
+
+# count how many times items appear in a tuple 5
+print(tup_c.count(5))
+
+# locate the index of a given item
+print(tup_c.index(5))
