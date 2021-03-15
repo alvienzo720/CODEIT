@@ -29,8 +29,13 @@ for i in range(len(alpha)):
         print(alpha[i] + alpha[k])
 
 print("-----------------------------")
-count = 0
-while count < 3:
-    while count < 3:
-        print(f"{alpha}")
-        count += 1
+out_count = 0
+in_count = 0
+while out_count < 3:
+    in_count = 0
+    while in_count < 3:
+        print(alpha[out_count] + alpha[in_count])
+        in_count += 1
+    out_count += 1
+
+
