@@ -28,17 +28,34 @@ for m in tup:
 # note in
 
 # Tuple Challenge Day 3 Week $
+# Tuple Challenge Day 2, week 4:
 
 tup = ([1, 'a'], [2, 'b'], [4, 'd'], [5, 'e'])
 
+# 1: add [3, 'c'] at index 2 using slicing
+c = [3, 'c'],
+tup = tup[:2] + c + tup[2:]
+
+print(tup)
+
+# 2: place this in a function called AddTuple
+
+
+def Add2Tuple(c):
+    integer = input("Enter an Integer: ")
+    string = input("Enter a string")
+    c = ([integer, string],)
+    tup = ([1,'a'],[2,'b'],[4,'d'],[5,'e'])
+    tup = tup[:2]+ c + tup[2:]
+    return tup
+
+single_tup = [3,'c'],
+
+print(Add2Tuple(single_tup))
+
+
+# 3: replace default values with user input
+
+
 
 # add [3, 'c'] at index 2
-def addTuple():
-    tup_a = tup[:2]
-    tup_c = tup[2:]
-    tup_b = ([3, 'c'],)
-    final = tup_a + tup_b + tup_c
-    print(final)
-
-
-addTuple()
