@@ -38,20 +38,33 @@ tup = tup[:2] + c + tup[2:]
 
 print(tup)
 
+
 # 2: place this in a function called AddTuple
 
 
 def Add2Tuple(c):
     integer = input("Enter an Integer: ")
+    if type(integer) != int:
+        print("please enter an integer")
     string = input("Enter a string")
     c = ([integer, string],)
-    tup = ([1,'a'],[2,'b'],[4,'d'],[5,'e'])
-    tup = tup[:2]+ c + tup[2:]
+    tup = ([1, 'a'], [2, 'b'], [4, 'd'], [5, 'e'])
+    tup = tup[:2] + c + tup[2:]
     return tup
 
-single_tup = [3,'c'],
-
+single_tup = [3, 'c'],
 print(Add2Tuple(single_tup))
+def tuple_input(i, s):
+    #keep prompting user for proper input
+    try:
+        i = int(i)
+    except:   # catching the error
+        print('enter an integer')
+        tuple_input(i, s)
+    return [i, s],
+
+tuple_input()
+
 
 
 # 3: replace default values with user input
