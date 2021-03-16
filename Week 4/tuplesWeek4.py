@@ -30,11 +30,11 @@ print(remove_hello)
 
 tup_c = 1, 2, 3, 4, 5, 5
 
-1# remove three
+# 1.remove three
 
 print(tup_c[:2] + tup_c[3:])
 
-#print the tuple backwards
+# print the tuple backwards
 
 print(tup_c[::-1])
 
@@ -46,3 +46,18 @@ print(tup_c.count(5))
 
 # locate the index of a given item
 print(tup_c.index(5))
+
+# counting char in a string
+
+fruit = 'banana'
+
+count = 0
+
+for letter in fruit:
+    if letter == "a":
+        count += 1
+print(count)
+print(fruit.count("a"))
+
+
+
