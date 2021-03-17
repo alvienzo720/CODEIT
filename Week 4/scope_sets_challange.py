@@ -10,12 +10,28 @@ nest inner function insode the outer function
 
 # 3. define a global variable "x" in the inner function
 
+# 4. assign a string value "hello" to the local variable x in the outer function
+
+# 5. assign a string value "goodbye" to the global variable x in the inner function
+
+# 6. print(x) after the inner function, as the last line of the outer function
+
+# 7. exit both functions and put a print(x) statement
+
 
 def outer():
     x = "Hello"
 
     def inner():
         global x
+        x = "Goodbye"
+    print(x)
+    inner()
+outer()
+print(x)
+
+
+
 
 
 

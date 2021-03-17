@@ -12,7 +12,7 @@ def sport():
     fave = "basketball"
 
 sport()
-global = "Alvin"
+global x
 def food():
     breakfast = "Toast"
     print(breakfast)
