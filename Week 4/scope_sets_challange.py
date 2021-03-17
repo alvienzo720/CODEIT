@@ -18,6 +18,14 @@ nest inner function insode the outer function
 
 # 7. exit both functions and put a print(x) statement
 
+# 8.
+
+# 9. put a print(x) statement after function
+
+# 10.define an x variable before the outer function
+
+x = "see you later"
+
 
 def outer():
     x = "Hello"
@@ -27,6 +35,8 @@ def outer():
         x = "Goodbye"
     print(x)
     inner()
+
+
 outer()
 print(x)
 
