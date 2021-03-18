@@ -26,6 +26,7 @@
 # 4: after the function, call it
 
 # 5: print dog
+# Global Variable
 
 dog = "bark"
 
@@ -35,3 +36,16 @@ def animal():
 
 animal()
 print(dog)
+
+
+# UnboundLocalError
+
+x = 0
+
+def scope_prac():
+    # locally bound x variable
+    # x = 0
+    x = x + 1
+    print(x)
+
+scope_prac()
