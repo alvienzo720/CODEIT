@@ -11,6 +11,7 @@
 # 3: remove all numbers from the set
 
 '''
+s
 'a','b','c'
 
 '''
@@ -18,6 +19,7 @@
 # 4: add a three new letter to the set
 
 '''
+
 'a','b','c','d','e','f'
 
 '''
@@ -38,9 +40,9 @@ def global_set(m):
     m.add("d")
     m.add("e")
     m.add("f")
-    print(m)
     return m
 
 
 global_set(a)
 print(a)
+
