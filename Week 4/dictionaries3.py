@@ -14,7 +14,8 @@ print(f"{employees['id']} {employees['name']} {employees['bonus']}")
 
 # 2: print out all list values iterartively now
 
-for word in m:
-    print(word)
+for key ,value in employees.items():
+    print(key, value)
 
-# 3:
+# 3: add "locations" to the employees dictionary location:('USA', 'Uganda')
+print(f"{employees.update('location':{'USA', 'Uganda'})
