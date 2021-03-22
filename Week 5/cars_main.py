@@ -1,5 +1,5 @@
 class Cars:
-    model = ""
-    year = 0
-    color = ""
-    used = False
+    model = None
+    year = None
+    color = None
+    used = None
