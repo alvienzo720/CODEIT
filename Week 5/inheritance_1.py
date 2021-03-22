@@ -1,4 +1,3 @@
-
 import cars_main
 
 A_Car = cars_main.Cars()
@@ -11,7 +10,6 @@ print(A_Car)
 print(A_Car.model)
 print(A_Car.year)
 print(A_Car.color)
-
 
 B_Car = cars_main.Cars()
 
@@ -35,4 +33,20 @@ print(C_Car.color)
 
 
 
+def ex():
+    c = "c"
+    print(c)
+    def mid():
+        global b
+        b = "b"
+    mid()
+    print(b)
+    def inner():
+        global a
+        a = "a"
+    inner()
+    print(a)
 
+
+
+ex()
