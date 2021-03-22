@@ -54,7 +54,6 @@ def print_starts1():
             print("*", end="")
         print()
 
-
 print_starts1()
 
 print("Question 3------------------")

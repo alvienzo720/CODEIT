@@ -21,8 +21,17 @@ for key, value in employees.items():
 employees.update({'location': ('USA', 'Uganda')})
 print(employees)
 
-# 4: Update the dictionary with new employee
+# 4: Add a new entry into the dictionary the dictionary with new employee
 # id -100
 # name -"Hughey"
 # bonus - 500
 # location
+
+employees['id'].append(100)
+employees['name'].append('Hughey')
+employees['bonus'].append(500)
+
+# add the new location
+
+print(employees['id'])
+print(employees)
