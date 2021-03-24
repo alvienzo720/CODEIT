@@ -32,24 +32,3 @@ print(C_Car.year)
 print(C_Car.color)
 
 
-def ex():
-    c = "c"
-    print(c)
-
-    def mid():
-        global b
-        b = "b"
-        print(b)
-
-        def inner():
-            global a
-            a = "a"
-
-        inner()
-        print(a)
-    mid()
-
-
-
-
-ex()
