@@ -1,15 +1,17 @@
 # file Input / Output
 
-#create a file called stock data
+# create a file called stock data
 
 import os
 
 
 def exe1():
+    # using with open() as x no need to close
     file_path = 'text'
 
     if not os.path.exists(file_path):
         print("new file created")
+        # w creates a new file, overrides existing text
         with open(file_path, "w") as f:
             f.write("new file created")
     else:
@@ -18,7 +20,7 @@ def exe1():
         with open(file_path, "a") as f:
             f.write("here is some text")
 
-#exe1()
+# exe1()
 
 
 def exe2():
@@ -29,10 +31,10 @@ def exe2():
         f.write("new file text_example_2 created")
         # rt writes text, overriding existing text frm left to right
     else:
-        f= open(file_path, "rt")
+        f = open(file_path, "rt")
         f.write("here is some new text")
 
-    f = open(file_path,"r")
+    f = open(file_path, "r")
     r = f.read()
     print(r)
     f.close()
