@@ -39,3 +39,13 @@ pres_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
 hum = Label(text="Humidity :", width=20, font=("bold", 20), bg="#9bd7e8")
 hum_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
 
+# wind
+wind = Label(text="Wind Speed :", width=20, font=("bold", 20), bg="#9bd7e8")
+wind_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
+# description
+desc = Label(text="Description :", width=20, font=("bold", 20), bg="#9bd7e8")
+des_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
+# country
+coun = Label(text="Country :", width=20, font=("bold", 20), bg="#9bd7e8")
+coun_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
+close_btn = Button(text="Close", bg="Red")
