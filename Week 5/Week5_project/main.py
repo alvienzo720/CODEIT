@@ -24,5 +24,18 @@ title_2 = Label(text="Search for Weather of any city of your choice", width=32, 
 search_city = tk.Entry(text="Search for city")
 button_search = tk.Button(text="Search", bg="white")
 
+
 # temp output and label
+
+temp_high = Label(text="Temp(high) :", width=20, font=("bold", 20), bg="#9bd7e8")
+temp_high_rs = Label(text="Hello", width=20, font=("bold", 20), bg="#9bd7e8")
+
+temp_low = Label(text="Temp(low) :", width=20, font=("bold", 20), bg="#9bd7e8")
+temp_low_rs = Label(text="Hello", width=20, font=("bold", 20), bg="#9bd7e8")
+# pressure label and fetched data
+pres = Label(text="Pressure :", width=20, font=("bold", 20), bg="#9bd7e8")
+pres_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
+# humidity label and data
+hum = Label(text="Humidity :", width=20, font=("bold", 20), bg="#9bd7e8")
+hum_rs = Label(text="", width=20, font=("bold", 20), bg="#9bd7e8")
 
