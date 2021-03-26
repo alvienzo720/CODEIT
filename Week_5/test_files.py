@@ -10,3 +10,9 @@ class Person:
 p = Person("alvin", 25)
 
 p.hello()
+
+
+class Plants:
+    def moss(self, color):
+        self.color = color
+        super().moss('red')
