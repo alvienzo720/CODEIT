@@ -12,7 +12,12 @@ p = Person("alvin", 25)
 p.hello()
 
 
-class Plants:
+class Reef:
+    def brain_coral(self):
+        print("brain coral is smooth")
+
+
+class Plants(Reef):
     def moss(self, color):
-        self.color = color
-        super().moss('red')
+        print("moss grows on rocks too")
+
