@@ -1,6 +1,6 @@
 from tkinter import *
 import tkinter as tk
-import requests
+#import requests
 
 # import tinker as a whole and after import tkinter as tk
 # adding functionality to our app
