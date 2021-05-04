@@ -32,10 +32,10 @@ for i in range(-10, 10):
 
 
 # for loops execute within a given range
-for num in range(100):  # and or not
-    if num % 2 == 0 and num != 0:
-        print(num)
-
+# for num in range(100):  # and or not
+#     if num % 2 == 0 and num != 0:
+#         print(num)
+#
 
 # while loops execute only if the condition is true
 
@@ -44,6 +44,7 @@ count = 0
 while count < 10:
     count += 1
     print(count)
+
 
 
 '''

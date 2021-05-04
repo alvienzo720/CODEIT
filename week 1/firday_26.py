@@ -5,7 +5,7 @@ def add():
 
     sum = num1 + num2
 
-    print(sum)
+    print("The sum of ", num1, "and", num2, "is", sum)
 
 
 add()

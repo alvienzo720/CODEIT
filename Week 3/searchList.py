@@ -29,7 +29,7 @@ mt_gessi_in_meters = mt_gessi / 3.381
 
 def to_meters():
     for i in moutains:
-        print(f"{i[0]} {i[1] / 3.281}")
+        print(f"{i[0]}  {round(i[1] / 3.281)}")
 
 
 

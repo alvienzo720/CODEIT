@@ -15,7 +15,7 @@ people = [('Ann', 30), ('Moses', 25), ('Elijah', 10), ('Dan', 40), ('Timothy', 1
 
 print(type(people))
 
-print(people[0][1])  # Not working for me
+print(people[0][1])
 
 for person in people:
     print(person)

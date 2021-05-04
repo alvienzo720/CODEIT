@@ -16,8 +16,20 @@ num = 2
 # the least amount of time a loop can run is 1
 # word = input("Enter a word")
 
-num = 2
+# num = 2
+#
+# while num <= count:
+#     print(num)
+#     num += 1
 
-while num <= count:
-    print(num)
-    num += 1
+secret = 777
+
+x = int(input("Please enetr a number"))
+
+while True:
+    print("you are out of the loop")
+    break
+else:
+    print("you are stuck in the loop")
+    x = int(input("Please enetr a number"))
+    break

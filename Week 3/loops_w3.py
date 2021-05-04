@@ -32,7 +32,7 @@ for city in cities:
 print("-----------------------------------------")
 # 2. convert the temp from fareni to Celcius print the list
 for city in cities:
-    print(f"{city[0]} {city[1] - 32 * 5/9}")
+    print(f"{city[0]} {round(city[1] - 32 * 5/9)}")
 
 # 3 add a second index value to each inner list(temp in Kelvins
 print("-------------------------------------------")

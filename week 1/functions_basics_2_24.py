@@ -12,7 +12,7 @@ a = 2
 b = 1
 
 def sum(x,y): # two parameters, x & y
-    z = x+y
+    z = x + y
     print(z)
 
 sum(a,b) # variables as function parameters

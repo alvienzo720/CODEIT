@@ -10,7 +10,7 @@ print(l[2:])
 print(l[:2])
 
 # prints list from index 3 until index 7-1
-print(l[3:7]
+print(l[3:7])
     
 # slicing Strings
       
