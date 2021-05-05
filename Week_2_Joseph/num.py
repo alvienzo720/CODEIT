@@ -16,3 +16,15 @@ print("Array with rank 2:  \n", CIT2)
 
 slice_CIT = CIT2[:3, ::3]
 print("print the array using slicing method \n", slice_CIT)
+
+
+Jacob = cit.array([[4, 3, 5, 8], [3, 7, 9, 10]])
+fredrich = cit.array([[5, 6, 10, 5], [3, 5, 7, 8]])
+print("adding 1 to Jacob", Jacob + 1)
+
+# constructing a data type object
+print(Jacob.dtype)
+
+samuel = cit.array([1.5, 8.6, 9.9, 0.0])
+print(samuel.dtype)
+
