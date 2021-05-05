@@ -76,3 +76,31 @@ print("identity of array", id(Array))
 print("identity of array",id(V1))
 Array[3] = 4
 # printinting array and view
+print("original array", Array)
+print("view", V1)
+
+# making use of copy() function to operate on array
+Cpy = np.array([3,4,5,6,66,7,75,6])
+#createing a copy array
+C = Cpy.copy()
+# print out our original arry Cpy ids in the memory
+print(id(Cpy))
+print(id(C))
+
+# changing the value of an elemnt in the position
+Cpy[3] = 100
+# pprint Cpy
+print("original copy array", Cpy)
+print("copy", C)
+
+# using np.empty_like() function
+# np.empty_like(a, dtype=None, order='K', subok= True)
+
+Like = np.array([13,45,56,5,6,77,8,67,7,8
+                 ,9,900,64])
+print(Like)
+Copy_like = np.empty_like(Like)
+Copy_like[:] = Like
+print("\n copy of the given array")
+print(Copy_like)
+
