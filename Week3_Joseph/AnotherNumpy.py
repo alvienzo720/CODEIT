@@ -39,4 +39,26 @@ print("\n", "*" * 43)
 print(cit_students_5D.shape)
 
 
+# numpy.hstack(tuple)
+
+'''
+Tuples :dequence of a ndarray, tup, les  containing array to be stacked
+The array must have the same shape along all the second axis
+
+Return : staocked ndarray, the stakced of the input arrays
+
+Here we go 
+'''
+Cit_in_array = np.array([1,2,34,4,6,8,9])
+print("This is the first array creation from user: ", Cit_in_array)
+
+Cit_in_array2 = np.array([3,5,65,6,7,8])
+print("This is the second array creation from the user: ", Cit_in_array2)
+
+print()
+
+
+
+
+
 
