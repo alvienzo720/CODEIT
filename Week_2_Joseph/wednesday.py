@@ -96,8 +96,8 @@ print("copy", C)
 # using np.empty_like() function
 # np.empty_like(a, dtype=None, order='K', subok= True)
 
-Like = np.array([13,45,56,5,6,77,8,67,7,8
-                 ,9,900,64])
+Like = np.array([13, 45, 56, 5, 6, 77, 8, 67, 7, 8
+                 , 9, 900, 64])
 print(Like)
 Copy_like = np.empty_like(Like)
 Copy_like[:] = Like
