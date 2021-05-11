@@ -55,7 +55,29 @@ print("This is the first array creation from user: ", Cit_in_array)
 Cit_in_array2 = np.array([3,5,65,6,7,8])
 print("This is the second array creation from the user: ", Cit_in_array2)
 
-print()
+Cit_out_arry = np.hstack((Cit_in_array, Cit_in_array2))
+
+print("The horizontal stacked array is :", Cit_out_arry)
+
+
+# for the vertical stack (numpy.vstack)
+
+'''
+we will be using the  concatinnation function to join tow ore more arrays along a spesfied axis
+syntax:
+numpy.concactenate((array1,array2,.....)axis=0)
+'''
+
+Conncat_array = np.array([2,3,5])
+
+Conncat_array2 = np.array([4,8,6])
+
+Conncat_array_new = np.concatenate(Conncat_array, Conncat_array2)
+
+print(Conncat_array_new)
+
+
+
 
 
 
