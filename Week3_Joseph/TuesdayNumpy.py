@@ -59,7 +59,8 @@ print(A_)
 print(B_)
 
 
-# 4 matrix in mumpy
+# 4 matrix in numpy
+
 l = np.array([[2, 3], [4, 5]])
 m = np.array([[4, 7], [6, 8]])
 
@@ -72,12 +73,25 @@ print(np.subtract(l, m))
 # Using Division
 print(np.divide(l, m))
 
+# using multiplication
+print(np.multiply(l, m))
+
+# Get the value of the sum of the matrices
+print(np.sum(l), np.sum(m))
+print(np.sum(l, axis=0), np.sum(m, axis=0))
+print(np.sum(l, axis=1), np.sum(m, axis=1))
 # use the dot function on the matrix
+print("Dot function", np.dot(l, m))
 # use the sqrt() function on the matrix
-# use the T function on the matrix
-print()
 print()
 print("The square root of l is :", np.sqrt(l))
-
+print()
 print("The square root of m is :", np.sqrt(m))
+# use the T function on the matrix
+print(l.T)
+print(m.T)
+
+np.transpose()
+
+
 
